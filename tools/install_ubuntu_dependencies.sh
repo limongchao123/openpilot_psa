@@ -94,7 +94,7 @@ function install_ubuntu_focal_requirements() {
 if [ -f "/etc/os-release" ]; then
   source /etc/os-release
   case "$VERSION_CODENAME" in
-    "jammy" | "kinetic" | "noble")
+    "jammy" | "kinetic" | "noble"| "wilma")
       install_ubuntu_lts_latest_requirements
       ;;
     "focal")
