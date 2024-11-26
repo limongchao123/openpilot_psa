@@ -75,6 +75,7 @@ whitelist = [
   "tinygrad_repo/tinygrad/.*.py",
 
   # TODO: do this automatically
+  "opendbc_repo/dbc/AEE2010_R3_HS1.dbc",
   "opendbc_repo/dbc/comma_body.dbc",
   "opendbc_repo/dbc/chrysler_ram_hd_generated.dbc",
   "opendbc_repo/dbc/chrysler_ram_dt_generated.dbc",
