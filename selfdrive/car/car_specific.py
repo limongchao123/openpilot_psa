@@ -159,6 +159,10 @@ class CarSpecificEvents:
       if self.low_speed_alert:
         events.add(EventName.belowSteerSpeed)
 
+    elif self.CP.carName == 'psa':
+      # TODO: Placeholder for now
+      pass
+
     else:
       raise ValueError(f"Unsupported car: {self.CP.carName}")
 
