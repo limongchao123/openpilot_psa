@@ -160,6 +160,7 @@ class CarSpecificEvents:
 
     elif self.CP.carName == 'psa':
       # TODO: Placeholder for now
+      events = self.create_common_events(CS, CS_prev)
       pass
 
     else:
